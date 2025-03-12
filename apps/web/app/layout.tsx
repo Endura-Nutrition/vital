@@ -1,4 +1,5 @@
-import '../styles/global.css'
+import "../styles/global.css";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({
   children,
@@ -7,7 +8,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        <title>Vital Web</title>
+      </head>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
