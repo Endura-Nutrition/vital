@@ -1,13 +1,11 @@
-# Turborepo react-native starter
+# Endura Nutrition Vital App
 
-This is a community-maintained example. If you experience a problem, please submit a pull request with a fix. GitHub Issues will be closed.
-
-## Using this example
+## Getting started
 
 Run the following command:
 
 ```sh
-npx create-turbo@latest -e with-react-native-web
+yarn
 ```
 
 ## What's inside?
