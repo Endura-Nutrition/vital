@@ -2,6 +2,8 @@
 
 ## Getting started
 
+- clone this repo
+
 Run the following command:
 
 ```sh
