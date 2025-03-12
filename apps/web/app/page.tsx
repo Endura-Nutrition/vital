@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@repo/ui";
-
 import styles from "../styles/index.module.css";
 
 export default function Web() {
