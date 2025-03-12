@@ -9,6 +9,8 @@
     "clean": "rm -rf dist"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
     "@repo/typescript-config": "*",
     "@types/react": "^18.2.14",
     "@types/react-native": "^0.73.0",
